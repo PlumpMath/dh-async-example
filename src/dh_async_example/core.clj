@@ -2,6 +2,7 @@
   (:require [dh-async-example.util :refer [g p rand-bytes powermod pr-md5]]
             [clojure.core.async :refer [go put! take! chan close! <! >!]]))
 
+;; https://github.com/boston-clojure/dh-async-example/
 ;; Basic Diffie-Hellman sequenced with core.async
 ;; Note: not secure against MITM attack
 
